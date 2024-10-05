@@ -1,6 +1,6 @@
 package com.picpay_simplificado.picpay_simplificado.domain.user;
 
 public enum UserType {
-    COMMOM,
-    MERCHAN
+    COMMON,
+    MERCHANT
 }
