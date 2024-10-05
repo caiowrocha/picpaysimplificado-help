@@ -18,6 +18,7 @@ public class NotificationService {
 
         NotificationDTO notificationRequest = new NotificationDTO(message, email);
         /*
+        - Service Not Working
        ResponseEntity<String> notificationResponse = restTemplate.postForEntity("https://util.devi.tools/api/v1/notify", notificationRequest, String.class);
 
        if(!(notificationResponse.getStatusCode() == HttpStatus.OK)) {
